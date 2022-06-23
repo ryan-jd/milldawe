@@ -19,6 +19,11 @@ body {
   font-family: 'Montserrat';
 } */
 
+#company-logo {
+  width: 50%;
+  max-width: 300px;
+}
+
 /* UTILITIES */
 * {
   margin: 0;
