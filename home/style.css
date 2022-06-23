@@ -50,6 +50,16 @@ body {
  }
  .nav-links a {
   color: #1D1D4C;
+  border-color: #009DFF;
+  -moz-transition: all .1s ease-in-out;
+  -webkit-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+ }
+ .nav-links a:hover {
+  color: #009DFF;
+  border-bottom: 1px solid;
  }
 
  /* NAVBAR MENU */
@@ -59,8 +69,7 @@ body {
   font-size: 18px;
  }
  .menu li:hover {
-  background-color: #009DFF;
-  border-radius: 5px;
+  color: #009DFF;
   transition: 0.3s ease;
  }
  .menu li {
@@ -129,12 +138,12 @@ input[type=checkbox]{
  .hamburger {
   display: block;
  }
- .dropdown {
+ /* .dropdown {
   left: 50%;
   top: 30px;
   transform: translateX(35%);
- }
- .dropdown li:hover {
+ } */
+ /* .dropdown li:hover {
   background-color: #009DFF;
- }
+ } */
  }
