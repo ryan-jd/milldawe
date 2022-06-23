@@ -1,12 +1,17 @@
 /* TO DO:
  */
 
+#maintenance {
+  padding-top: 20%;
+}
+
 /*----------------platform agnostic-----------------*/
-/* .center {
+.center {
   text-align: center;
   margin: 0 auto;
 }
 
+/*
 html, body {
   overflow: hidden;
   height: 100%
@@ -14,9 +19,6 @@ html, body {
 
 body {
   position: relative;
-  color: #1D1D4C;
-  background-color: #009DFF;
-  font-family: 'Montserrat';
 } */
 
 #company-logo {
@@ -31,6 +33,7 @@ body {
   box-sizing: border-box;
  }
  body {
+  color: #1D1D4C;
   font-family: 'Montserrat';
  }
  a {
@@ -115,33 +118,40 @@ input[type=checkbox]{
  }
  /* APPLYING MEDIA QUERIES */
  @media (max-width: 768px) {
- .menu { 
-  display:none;
-  position: absolute;
-  right: 0;
-  left: 0;
-  text-align: center;
-  padding: 16px 0;
- }
- .menu li:hover {
-  display: inline-block;
-  transition: 0.3s ease;
- }
- .menu li + li {
-  margin-top: 12px;
- }
- input[type=checkbox]:checked ~ .menu{
-  display: block;
- }
- .hamburger {
-  display: block;
- }
- /* .dropdown {
-  left: 50%;
-  top: 30px;
-  transform: translateX(35%);
- } */
- /* .dropdown li:hover {
-  background-color: #009DFF;
- } */
- }
+  .menu { 
+    display:none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .menu li:hover {
+    display: inline-block;
+    transition: 0.3s ease;
+  }
+  .menu li + li {
+    margin-top: 12px;
+  }
+  input[type=checkbox]:checked ~ .menu{
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+  /* .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  } */
+  /* .dropdown li:hover {
+    background-color: #009DFF;
+  } */
+}
+
+#tag_bottomrightcorner {
+  font-size: 1em;
+  position: fixed;
+  bottom: 0px;
+  right: 5px;
+}
