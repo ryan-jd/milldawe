@@ -28,13 +28,30 @@ body {
   user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
+.screen-middle-outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.screen-middle-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.screen-middle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #company-logo {
-  width: 300px;
-  height: 300px;
+  width: 60%;
+  max-width: 500px;
 }
 
 #tag_bottomrightcorner {
-  font-size: 2em;
+  font-size: 1em;
   position: fixed;
   bottom: 0px;
   right: 5px;
@@ -49,7 +66,11 @@ body {
   outline: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  padding: 10px 30px;
+  padding: 5px 30px;
+  width: 60%;
+  max-width: 8em;
+  margin-top: 20px;
+  font-size: 2.5em;
 }
 
 #enter-website-button:active:focus {
@@ -79,9 +100,6 @@ body {
 
 /* Portrait phones and down */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
-  /* body {
-  } */
-
   h1 {
     margin-top: 20px;
     margin-bottom: 0px;
@@ -94,8 +112,7 @@ body {
   }
 
   #enter-website-button {
-    width: 85%;
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
 }
 
@@ -110,10 +127,6 @@ body {
   h2 {
     margin-top: 0px;
     font-size: 1.5em;
-  }
-
-  #enter-website-button {
-    font-size: 2.5em;
   }
 }
 
@@ -134,11 +147,6 @@ body {
     margin-top: 10px;
     font-size: 2.5em;
   }
-
-  #enter-website-button {
-    width: 8em;
-    font-size: 3.5em;
-  }
 }
 
 
@@ -146,14 +154,8 @@ body {
 /* @media (max-width: 767px) { */
 
 /* All portrait phones and tablets */
-@media only screen and (max-width: 1024px) and (orientation: portrait) {
-  #enter-website-button {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
+/* @media only screen and (max-width: 1024px) and (orientation: portrait) {
+} */
 
 /* All desktops, landscape phones and landscape tablets */
 /* @media only screen and (orientation: landscape), only screen and (min-width: 1025px) {
@@ -166,24 +168,6 @@ body {
 
 /* Landscape tablets, desktops and up */
 @media only screen and (min-width: 813px) and (orientation: landscape), only screen and (min-width: 1025px) {
-  /* redesigining screen-middle for maximum browser compatability */
-  .screen-middle-outer {
-      display: table;
-      position: absolute;
-      height: 100%;
-      width: 100%;
-  }
-
-  .screen-middle-cell {
-      display: table-cell;
-      vertical-align: middle;
-  }
-
-  .screen-middle {
-      margin-left: auto;
-      margin-right: auto;
-  }
-
   h1 {
     font-size: 6em;
     margin-bottom: 0px;
@@ -193,11 +177,6 @@ body {
     font-size: 3em;
     margin-top: 5px;
     margin-bottom: 15px;
-  }
-
-  #enter-website-button {
-    margin-top: 20px;
-    font-size: 4em;
   }
 }
 
