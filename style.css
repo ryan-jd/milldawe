@@ -46,8 +46,8 @@ body {
 }
 
 #company-logo {
-  width: 60%;
   max-width: 500px;
+  max-height: 500px;
 }
 
 #tag_bottomrightcorner {
@@ -89,6 +89,18 @@ body {
 }
 
 /*-----------end of platform agnostic------------*/
+
+@media only screen and (orientation: portrait) {
+  #company-logo {
+    width: 60%;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  #company-logo {
+    width: 20%;
+  }
+}
 
 /* All mobiles and tablets */
 /* @media only screen and (max-width: 1024px) {
