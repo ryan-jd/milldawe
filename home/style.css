@@ -167,6 +167,11 @@ input[type=checkbox]{
 #founders-icon-div {
   width: 60%;
   max-width: 200px;
+  flex-direction: column;
+}
+
+#founders-icon-div > * {
+  padding: 10px;
 }
 
 #founder-rjd {
@@ -178,6 +183,10 @@ input[type=checkbox]{
 #founders-text-div {
   width: 80%;
   max-width: 400px;
+}
+
+#founders-text-div h3 {
+  margin-top: 0;
 }
 
 #founders-text-div p {
@@ -263,7 +272,10 @@ input[type=checkbox]{
 
 @media (min-width: 769px) {
   #content-wrap {
-    padding-bottom: 4rem;
+    padding-bottom: 4.5rem;
+  }
+  #footer {
+    height: 4.5rem;
   }
 
   #founders-content {
@@ -272,9 +284,5 @@ input[type=checkbox]{
 
   #founders-text-div h3 {
     text-align: left;
-  }
-
-  #footer {
-    height: 4em;
   }
 }
