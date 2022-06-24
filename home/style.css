@@ -168,28 +168,28 @@ input[type=checkbox]{
   justify-content: space-between;
 }
 
+#footer * {
+  margin: 0;
+}
+
 #footer a {
   color: #009DFF;
 }
 
 #footer p {
-  margin: 0;
   font-size: xx-small;
 }
 
 #footer h3 {
-  margin: 0;
   font-size: small;
 }
 
 #footer-left {
   text-align: left;
-  margin: 0;
 }
 
 #footer-right {
   text-align: right;
-  margin: 0;
 }
 
 
