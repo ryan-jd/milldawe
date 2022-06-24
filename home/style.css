@@ -117,8 +117,37 @@ input[type=checkbox]{
   font-size: 24px;
   user-select: none;
  }
- /* APPLYING MEDIA QUERIES */
- @media (max-width: 768px) {
+ 
+
+#home-section {
+  display: table;
+}
+
+#home-section div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#home-banner {
+  width: 95%;
+  max-width: 750px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+}
+
+#tag_bottomrightcorner {
+  font-size: 1em;
+  position: fixed;
+  bottom: 0px;
+  right: 5px;
+}
+
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
   .menu { 
     display:none;
     position: absolute;
@@ -148,25 +177,9 @@ input[type=checkbox]{
   /* .dropdown li:hover {
     background-color: #009DFF;
   } */
-}
 
-#home-section div {
-  display: inline-block;
-}
 
-#home-banner {
-  width: 95%;
-  max-width: 750px;
-}
-
-#footer {
-  position: fixed;
-  bottom: 0px;
-}
-
-#tag_bottomrightcorner {
-  font-size: 1em;
-  position: fixed;
-  bottom: 0px;
-  right: 5px;
+  #home-section {
+    display: block;
+  }
 }
