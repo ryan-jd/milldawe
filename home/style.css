@@ -158,6 +158,22 @@ input[type=checkbox]{
   max-width: 750px;
 }
 
+#founders-icon-div {
+  width: 60%;
+  max-width: 200px;
+}
+
+#founder-rjd {
+  border-radius: 50%;
+  width: 80%;
+  max-width: 200px;
+}
+
+#founders-text-div {
+  width: 90%;
+  max-width: 600px;
+}
+
 #footer {
   position: absolute;
   bottom: 0;
