@@ -150,6 +150,7 @@ footer {
   width: 100%;
   color: #009DFF;
   background-color: #1D1D4C;
+  justify-content: space-between;
 }
 
 footer a {
@@ -161,8 +162,17 @@ footer p {
   font-size: xx-small;
 }
 
-#tag_bottomrightcorner {
-  font-size: 1em;
+footer h3 {
+  margin: 0;
+  font-size: small;
+}
+
+#footer-left {
+  text-align: left;
+  margin: 0;
+}
+
+#footer-right {
   text-align: right;
   margin: 0;
 }
