@@ -158,6 +158,32 @@ input[type=checkbox]{
   max-width: 750px;
 }
 
+#founders-content {
+  background: #009DFF;
+  border-radius: 10px;
+  max-width: 75%;
+}
+
+#founders-icon-div {
+  width: 60%;
+  max-width: 200px;
+}
+
+#founder-rjd {
+  border-radius: 50%;
+  width: 80%;
+  max-width: 200px;
+}
+
+#founders-text-div {
+  width: 80%;
+  max-width: 400px;
+}
+
+#founders-text-div p {
+  text-align: left;
+}
+
 #footer {
   position: absolute;
   bottom: 0;
@@ -238,6 +264,14 @@ input[type=checkbox]{
 @media (min-width: 769px) {
   #content-wrap {
     padding-bottom: 4rem;
+  }
+
+  #founders-content {
+    max-width: none;
+  }
+
+  #founders-text-div h3 {
+    text-align: left;
   }
 
   #footer {
