@@ -3,7 +3,7 @@
  */
 
 #maintenance {
-  padding-top: 20%;
+  padding-top: 100px;
 }
 
 /*----------------platform agnostic-----------------*/
@@ -52,7 +52,7 @@ body {
   padding: 20px;
   color: #1D1D4C;
  }
- .nav-links a {
+ a {
   color: #1D1D4C;
   border-color: #009DFF;
   -moz-transition: all .1s ease-in-out;
@@ -61,7 +61,7 @@ body {
   -o-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
  }
- .nav-links a:hover {
+ a:hover {
   color: #009DFF;
   border-bottom: 1px solid;
  }
@@ -148,6 +148,20 @@ input[type=checkbox]{
   /* .dropdown li:hover {
     background-color: #009DFF;
   } */
+}
+
+#home-section div {
+  display: inline-block;
+}
+
+#home-banner {
+  width: 95%;
+  max-width: 750px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
 }
 
 #tag_bottomrightcorner {
