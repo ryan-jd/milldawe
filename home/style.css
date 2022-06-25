@@ -156,6 +156,12 @@ input[type=checkbox]{
   max-width: 750px;
 }
 
+#about-content {
+  width: 75%;
+  max-width: 1000px;
+  text-align: left;
+}
+
 #founders-content {
   background: #009DFF;
   border-radius: 10px;
